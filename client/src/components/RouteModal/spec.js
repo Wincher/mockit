@@ -95,6 +95,7 @@ describe('Route Modal', () => {
       expect(getByValue('401', dropdownOptionGroups[1].children)).toBeVisible();
       expect(getByValue('403', dropdownOptionGroups[1].children)).toBeVisible();
       expect(getByValue('404', dropdownOptionGroups[1].children)).toBeVisible();
+      expect(getByValue('406', dropdownOptionGroups[1].children)).toBeVisible();
       expect(getByValue('409', dropdownOptionGroups[1].children)).toBeVisible();
       expect(getByValue('422', dropdownOptionGroups[1].children)).toBeVisible();
       expect(getByValue('500', dropdownOptionGroups[2].children)).toBeVisible();

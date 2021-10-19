@@ -25,6 +25,7 @@ const STATUS_CODES = [
   StatusCodes.UNAUTHORIZED,
   StatusCodes.FORBIDDEN,
   StatusCodes.NOT_FOUND,
+  StatusCodes.NOT_ACCEPTABLE,
   StatusCodes.CONFLICT,
   StatusCodes.UNPROCESSABLE_ENTITY,
   StatusCodes.INTERNAL_SERVER_ERROR,
